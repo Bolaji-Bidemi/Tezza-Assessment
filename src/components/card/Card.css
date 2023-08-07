@@ -1,0 +1,149 @@
+.cardWidth {
+  width: 27rem;
+  height: 180px;
+
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+.cardWidth2 {
+  width: 27rem;
+  height: 220px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+.cardWidth3 {
+  width: 27rem;
+  height: 220px;
+  background-color: white;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+.spacing {
+  padding: 0 8px;
+}
+.cardLine {
+  width: 100%;
+  height: 10px;
+  background-color: rgb(221, 170, 51);
+}
+.cardTitle {
+  padding: 9px;
+  background-color: rgb(251, 246, 235);
+  display: flex;
+  justify-content: space-between;
+}
+.text {
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(152, 158, 164);
+}
+.titleTag {
+  font-size: 15px;
+  font-weight: 700;
+}
+.linkTag {
+  font-size: 14px;
+  font-weight: 800;
+  color: rgb(221, 170, 51);
+}
+.dueTag {
+  margin: 5px;
+  padding: 5px;
+  background-color: rgb(251, 246, 235);
+}
+.statusTag {
+  font-size: 12px;
+  background-color: rgb(251, 246, 235);
+  color: rgb(152, 158, 164);
+}
+.dateTag {
+  display: flex;
+  align-items: center;
+}
+.rule {
+  width: 41%;
+  background-color: grey;
+}
+.cardDetails {
+  width: 12rem;
+  text-align: right;
+}
+.statusTag {
+  margin-top: 4px;
+  padding: 5px;
+  font-size: 13px;
+}
+.dueGap {
+  gap: 6px;
+  font-size: 13px;
+}
+
+@media screen and (max-width: 900px) {
+  .cardWidth {
+    width: 17rem;
+    height: 120px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in-out;
+  }
+  .cardWidth2 {
+    width: 17rem;
+    min-height: 120px;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in-out;
+  }
+  .cardWidth3 {
+    width: 17rem;
+    min-height: 120px;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .cardLine {
+    width: 100%;
+    height: 10px;
+    background-color: rgb(245, 181, 63);
+  }
+  .cardTitle {
+    padding: 6px;
+    background-color: rgb(227, 209, 175);
+    display: flex;
+    justify-content: space-between;
+  }
+  .text {
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(152, 158, 164);
+  }
+  .titleTag {
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .linkTag {
+    font-size: 12px;
+    font-weight: 800;
+    color: rgb(245, 181, 63);
+  }
+  .dueTag {
+    background-color: rgb(251, 246, 235);
+  }
+  .statusTag {
+    font-size: 12px;
+    background-color: rgb(251, 246, 235);
+    color: grey;
+  }
+  .dateTag {
+    display: flex;
+    align-items: center;
+  }
+  .rule {
+    width: 45%;
+    background-color: grey;
+  }
+}

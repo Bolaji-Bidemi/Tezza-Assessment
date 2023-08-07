@@ -1,0 +1,51 @@
+.outlet2 {
+  width: 100%;
+  display: flex;
+}
+.outlet1 {
+  width: 300px;
+  height: 100vh;
+  display: flex;
+  z-index: 1;
+}
+.outlet {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.outlet3 {
+  width: 100%;
+  min-height: 100%;
+  background-color: rgb(250, 250, 251);
+  z-index: -1;
+}
+
+@media screen and (max-width: 900px) {
+  .outlet2 {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+  }
+  .outlet1 {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 300px;
+    height: 100vh;
+    display: flex;
+    z-index: 1;
+  }
+  .outlet {
+    min-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .outlet3 {
+    min-width: 100%;
+    min-height: 100vh;
+    background-color: rgb(250, 250, 251);
+    z-index: -999;
+  }
+}

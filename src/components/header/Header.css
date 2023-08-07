@@ -1,0 +1,9 @@
+.header{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.sub{
+    font-weight: 600;
+    color: rgb(190,190,190)
+}

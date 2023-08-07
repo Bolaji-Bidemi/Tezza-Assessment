@@ -1,0 +1,50 @@
+.sideContent {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sidebar {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  align-items: center;
+  gap: 27px;
+}
+.logoCase {
+  padding: 20px;
+}
+.logo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+img {
+  width: 100%;
+}
+.sideItem {
+  min-width: 12%;
+  font-weight: 700;
+  color: rgb(37, 37, 38);
+  display: flex;
+  gap: 17px;
+}
+.sideItem:hover {
+  color: rgb(227, 185, 87);
+  font-weight: 700;
+}
+
+@media screen and (max-width: 900px) {
+  .sideItem {
+    min-width: 12%;
+    font-weight: 700;
+    font-size: 12px;
+    color: rgb(37, 37, 38);
+    display: flex;
+    gap: 7px;
+  }
+  .sideItem:hover {
+    color: rgb(227, 185, 87);
+  }
+}

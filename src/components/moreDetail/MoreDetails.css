@@ -1,0 +1,18 @@
+.parent{
+    line-height: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+
+}
+.tagDetail{
+    color: rgb(152,158,164);
+}
+
+@media screen and (max-width: 900px){
+    .valueDetail{
+        font-weight: 700;
+        font-size: 12px;
+    }
+}
+
