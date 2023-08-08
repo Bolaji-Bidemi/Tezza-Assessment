@@ -155,7 +155,7 @@ export const profileDetails = [
     },
     {
         tag: "Residential Address",
-        value: "No 2, Olonade Close, Monato Ibadan, Oyo state, Nigeria"
+        value: "No 2, Olonade Close, Oyo, Nigeria"
     },
     {
         tag: "Country of Interest",
@@ -186,7 +186,7 @@ export const moreProfileDetails = [
     },
     {
         tag: "Mailing Address",
-        value: "No 2, Olonade Close, Monato Ibadan, Oyo state, Nigeria"
+        value: "No 2, Olonade Close, Oyo, Nigeria"
     },
     {
         tag: "Purpose of Travel",

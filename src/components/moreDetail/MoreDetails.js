@@ -5,7 +5,7 @@ const MoreDetails = ({ tag, value }) => {
   return (
     <div className="parent">
       <div className="tagDetail">{tag}</div>
-      <h3 className="valueDetail">{value}</h3>
+      <h4 className="valueDetail">{value}</h4>
     </div>
   );
 };
